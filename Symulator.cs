@@ -13,8 +13,8 @@ namespace Symulator_Michał_Grzegorzewski
     public partial class Symulator : Form
     {
 
-        private string x; // combobox1
-        private string y; // combomox2
+        private string x;
+        private string y;
 
 
         public Symulator()
@@ -28,13 +28,6 @@ namespace Symulator_Michał_Grzegorzewski
             comboBox2.SelectedIndex = 1;
             x = textBox1.Text;
             y = textBox2.Text;
-        }
-
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -110,6 +103,11 @@ namespace Symulator_Michał_Grzegorzewski
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+            {
+                MessageBox.Show("Zły Rejestr");
+            }
+
             if (comboBox2.SelectedIndex == 0)
             {
                 textBox1.Text = x;
@@ -188,14 +186,14 @@ namespace Symulator_Michał_Grzegorzewski
         {
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 1;
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-            textBox4.Text = "";
-            textBox5.Text = "";
-            textBox6.Text = "";
-            textBox7.Text = "";
-            textBox8.Text = "";
+            textBox1.Text = "1111";
+            textBox2.Text = "2222";
+            textBox3.Text = "3333";
+            textBox4.Text = "4444";
+            textBox5.Text = "1111";
+            textBox6.Text = "1111";
+            textBox7.Text = "1111";
+            textBox8.Text = "1111";
             x = "";
             y = "";
         }

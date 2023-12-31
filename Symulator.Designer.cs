@@ -54,9 +54,9 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.symulatorBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.symulatorBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.symulatorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.symulatorBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.symulatorBindingSource)).BeginInit();
@@ -321,6 +321,10 @@
             this.comboBox1.TabIndex = 6;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // symulatorBindingSource1
+            // 
+            this.symulatorBindingSource1.DataSource = typeof(Symulator_Michał_Grzegorzewski.Symulator);
+            // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
@@ -349,10 +353,6 @@
             this.label13.Size = new System.Drawing.Size(29, 20);
             this.label13.TabIndex = 25;
             this.label13.Text = ">>";
-            // 
-            // symulatorBindingSource1
-            // 
-            this.symulatorBindingSource1.DataSource = typeof(Symulator_Michał_Grzegorzewski.Symulator);
             // 
             // symulatorBindingSource
             // 
