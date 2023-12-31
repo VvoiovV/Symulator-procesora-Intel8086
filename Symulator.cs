@@ -30,31 +30,6 @@ namespace Symulator_Michał_Grzegorzewski
             y = textBox2.Text;
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
            
@@ -62,7 +37,6 @@ namespace Symulator_Michał_Grzegorzewski
             {
                 MessageBox.Show("Zły Rejestr");
             }
-
 
             if (comboBox2.SelectedIndex == 0)
             {
@@ -186,14 +160,14 @@ namespace Symulator_Michał_Grzegorzewski
         {
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 1;
-            textBox1.Text = "1111";
-            textBox2.Text = "2222";
-            textBox3.Text = "3333";
-            textBox4.Text = "4444";
-            textBox5.Text = "1111";
-            textBox6.Text = "1111";
-            textBox7.Text = "1111";
-            textBox8.Text = "1111";
+            textBox1.Text = "1";
+            textBox2.Text = "2";
+            textBox3.Text = "3";
+            textBox4.Text = "4";
+            textBox5.Text = "1";
+            textBox6.Text = "1";
+            textBox7.Text = "1";
+            textBox8.Text = "1";
             x = "";
             y = "";
         }
@@ -319,5 +293,31 @@ namespace Symulator_Michał_Grzegorzewski
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
